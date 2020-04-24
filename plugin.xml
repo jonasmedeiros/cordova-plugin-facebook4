@@ -161,7 +161,7 @@
         </config-file>
 
         <!-- Facebook SDK -->
-        <podspec>
+        <!-- <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
@@ -170,7 +170,10 @@
                 <pod name="FBSDKLoginKit" spec="5.15.0"/>
                 <pod name="FBSDKShareKit" spec="5.15.0"/>
             </pods>
-        </podspec>
+        </podspec> -->
+        <framework src="FBSDKCoreKit" type="podspec" spec="5.15.0" />
+        <framework src="FBSDKLoginKit" type="podspec" spec="5.15.0" />
+        <framework src="FBSDKShareKit" type="podspec" spec="5.15.0" />
 
     </platform>
 
